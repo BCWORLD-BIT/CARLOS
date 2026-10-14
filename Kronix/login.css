@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.login-con input {
+    padding-left: 20px;
+    padding-right: 200px;
+    padding-block: 15px;
+    border: 1px solid;
+    border-radius: 7.5px;
+}
+
+.login-con button {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-block: 15px;
+    border: 1px solid;
+    border-radius: 7.5px;
+    
+}
+
+.login-con p {
+    color: grey;
+}
+
+.login-con span {
+    color: black;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Kronix/sign-up.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div class="form-con">
+        <h1>Sign Up</h1>
+        
+        <form action="/api/v1/sign-up">
+            <div class="name-con">
+                <div class="first-n">
+                    <label for="first-name">First Name</label>
+                    <br><br>
+                    <input id="first-name" type="text" placeholder="Enter First Name" minlength="3" maxlength="30">
+                </div>
+
+                <br>
+
+                <div class="last-n">
+                    <label for="last-name">Last Name</label>
+                    <br><br>
+                    <input id="last-name" type="text" placeholder="Enter First Name" minlength="3" maxlength="30">
+                </div>
+            </div>  
+
+            <br>
+            <div class="phone-con">
+                <label for="phone-number">Phone Number</label>
+                <br><br>
+                <input id="phone-number" type="tel" placeholder="Enter Your Phone Number" minlength="3" maxlength="11">
+            </div>
+
+            <br>
+
+            <div class="info-con">
+                <div>
+                    <label for="email">Email</label>
+                    <br><br>
+                    <input id="email" type="email" placeholder="Enter Your Email" minlength="3" maxlength="30">
+                </div>
+
+                <br><br>
+
+                <div>
+                    <label for="country">Country</label>
+                    <br><br>
+                    <select id="country" name="country">
+                        <option value="naija">Nigeria</option>
+                        <option value="united-states">USA</option>
+                        <option value="united-kingdom">Uk</option>
+                    </select>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="password-con">
+                <div>
+                    <label for="password">Password</label>
+                    <br><br>
+                    <input id="password" type="password" placeholder="Enter a Password" minlength="3" maxlength="15">
+                </div>
+                <br>
+                <div>
+                    <label for="re-password">Confirm Password</label>
+                    <br><br>
+                    <input id="re-password" type="password" placeholder="Confirm Your Password" minlength="3" maxlength="15">
+                </div>
+
+                <br>
+            </div>
+
+            <br>
+
+            <div class="cta-btn">
+                <button type="submit">Sign up now</button>
+            </div>
+
+            <br>
+            <div class="form-text">
+                <p>Don't have an Account ? <span>Sign Up</span></p>
+                <span>Forgot Password ?</span>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Kronix/login.css">
+    <title>Kronix</title>
+</head>
+<body>
+    <div class="login-con">
+        <h1>Login</h1>
+
+        <br>
+
+        <form action="/api/v1/kronix">
+
+            <label for="email">Email</label>
+
+            <br><br>
+
+            <input type="text" name="email" placeholder="Enter your Email" minlength="3" maxlength="30">
+
+            <br><br>
+
+            <label for="password">Password</label>
+
+            <br><br>
+
+            <input type="password" name=password placeholder="Enter a password" minlength="3" maxlength="30">
+
+            <br><br>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <br><br>
+
+        <p>Don't have an Account ? <span>Sign Up</span></p>
+
+        <br>
+
+        <span>Forgot Password ?</span>
+    </div>
+</body>
+</html>

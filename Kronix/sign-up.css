@@ -1,0 +1,94 @@
+.form-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.name-con {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-inline: 50px;
+}
+
+.name-con input {
+    padding-block: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.phone-con {
+    padding-inline: 70px;
+}
+
+.phone-con input {
+    padding-block: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding-right: 220px;
+}
+
+.info-con {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-inline: 50px;
+    
+}
+
+.info-con input {
+    padding-block: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.info-con select {
+    padding-block: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.password-con {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.password-con input {
+    padding-block: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.cta-btn {
+    text-align: center;
+}
+
+.cta-btn button {
+    background-color: black;
+    color: white;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-block: 10px;
+    border-radius: 8px;
+}
+
+.form-text {
+    text-align: center;
+}
+
+.form-text p {
+    color: grey;
+}
+
+.form-text span {
+    color: black;
+}
